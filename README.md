@@ -1,36 +1,122 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Yardstick: Personal Finance Tracking Application
 
-## Getting Started
+## Overview
 
-First, run the development server:
+Yardstick is a modern, intuitive personal finance tracking application designed to help you understand, manage, and optimize your financial health. Built with cutting-edge web technologies, Yardstick provides comprehensive insights into your spending, budgeting, and financial patterns.
 
+## Features
+
+### 1. Transaction Management
+- Add, edit, and delete financial transactions
+- Categorize transactions for better tracking
+- Instant transaction input with smart form validation
+
+### 2. Budget Tracking
+- Set monthly budgets for different expense categories
+- Real-time budget vs. actual spending comparison
+- Visual budget alerts and insights
+
+### 3. Financial Analytics
+- Detailed spending analytics
+- Category-wise expense breakdown
+- Monthly expense trends
+- Spending insights and recommendations
+
+## Tech Stack
+
+### Frontend
+- Next.js 13
+- React
+- Tailwind CSS
+- Shadcn UI Components
+- next-themes for dark mode
+
+### Backend
+- MongoDB (via Mongoose)
+- API Routes in Next.js
+- Server-side rendering
+- Robust error handling
+
+### State Management
+- React Hooks (useState, useEffect)
+- Client-side data fetching
+
+## Prerequisites
+
+- Node.js (v18 or later)
+- npm or yarn
+- MongoDB database
+
+## Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/Yardstick.git
+cd Yardstick
+```
+
+2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Set up environment variables
+Create a `.env.local` file with:
+```
+MONGODB_URI=your_mongodb_connection_string
+```
+
+4. Run the development server
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Dark Mode Support
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Yardstick offers a beautiful dark mode experience:
+- Togglable via theme switcher
+- Smooth color transitions
+- Maintains readability across light and dark themes
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Security Features
 
-## Learn More
+- Secure API routes
+- Client-side validation
+- Error handling for network and server issues
+- Protection against invalid data submissions
 
-To learn more about Next.js, take a look at the following resources:
+## Performance Optimization
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Efficient data loading with parallel fetching
+- Timeout mechanisms for API calls
+- Minimal re-renders with React hooks
+- Responsive design for all device sizes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Acknowledgements
+
+- Next.js
+- Tailwind CSS
+- Shadcn UI
+- MongoDB
+- React Community
+
+## Contact
+
+Your Name - yalamanchilidushyanth@gmail.com
+Project Link: [https://github.com/dushu108/Yardstick](https://github.com/dushu108/Yardstick)
