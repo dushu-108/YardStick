@@ -99,8 +99,6 @@ export default function Home() {
           setBudgets({});
           return {};
         }
-        
-        throw new Error(`Failed to load budget data: ${response.status} - ${errorText || 'No error details'}`);
       }
       
       // Parse JSON
