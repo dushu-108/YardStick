@@ -378,14 +378,14 @@ export default function Home() {
         </div>
       )}
 
-      {/* Budgets Tab */}
-      {activeTab === 'budgets' && (
-        <div className="max-w-lg mx-auto bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-          <h2 className="text-2xl font-bold mb-6">Set Your Monthly Budgets</h2>
-          {renderErrorMessage('form')}
-          <BudgetForm budgets={budgets} onSubmit={handleSaveBudgets} />
-        </div>
-      )}
+     {/* Budgets Tab */}
+{activeTab === 'budgets' && (
+  <div className="max-w-lg mx-auto bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700">
+    <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-gray-100">Set Your Monthly Budgets</h2>
+    {renderErrorMessage('form')}
+    <BudgetForm budgets={budgets} onSubmit={handleSaveBudgets} />
+  </div>
+)}
     </main>
   );
 }
