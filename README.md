@@ -119,4 +119,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 Your Name - yalamanchilidushyanth@gmail.com
-Project Link: [https://github.com/dushu108/Yardstick](https://github.com/dushu108/Yardstick)
+Project Link: [https://github.com/dushu-108/Yardstick](https://github.com/dushu-108/Yardstick)
